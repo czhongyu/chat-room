@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'mainwindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.0
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(960, 729)
+        self.centralWidget = QtWidgets.QWidget(MainWindow)
+        self.centralWidget.setObjectName("centralWidget")
+        self.sign_in_button = QtWidgets.QPushButton(self.centralWidget)
+        self.sign_in_button.setGeometry(QtCore.QRect(660, 140, 131, 41))
+        self.sign_in_button.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.sign_in_button.setObjectName("sign_in_button")
+        self.join_button = QtWidgets.QPushButton(self.centralWidget)
+        self.join_button.setGeometry(QtCore.QRect(660, 280, 131, 41))
+        self.join_button.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.join_button.setObjectName("join_button")
+        self.leave_button = QtWidgets.QPushButton(self.centralWidget)
+        self.leave_button.setGeometry(QtCore.QRect(800, 280, 131, 41))
+        self.leave_button.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.leave_button.setObjectName("leave_button")
+        self.username_window = QtWidgets.QTextBrowser(self.centralWidget)
+        self.username_window.setGeometry(QtCore.QRect(660, 90, 271, 41))
+        self.username_window.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.username_window.setObjectName("username_window")
+        self.user_label = QtWidgets.QLabel(self.centralWidget)
+        self.user_label.setGeometry(QtCore.QRect(660, 49, 271, 31))
+        self.user_label.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.user_label.setObjectName("user_label")
+        self.chat_window = QtWidgets.QTextBrowser(self.centralWidget)
+        self.chat_window.setGeometry(QtCore.QRect(20, 90, 631, 411))
+        self.chat_window.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.chat_window.setObjectName("chat_window")
+        self.message_input = QtWidgets.QPlainTextEdit(self.centralWidget)
+        self.message_input.setGeometry(QtCore.QRect(20, 510, 631, 161))
+        self.message_input.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.message_input.setObjectName("message_input")
+        self.member_window = QtWidgets.QTextBrowser(self.centralWidget)
+        self.member_window.setGeometry(QtCore.QRect(660, 330, 271, 291))
+        self.member_window.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.member_window.setObjectName("member_window")
+        self.group_label = QtWidgets.QLabel(self.centralWidget)
+        self.group_label.setGeometry(QtCore.QRect(660, 190, 271, 31))
+        self.group_label.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.group_label.setObjectName("group_label")
+        self.chat_label = QtWidgets.QLabel(self.centralWidget)
+        self.chat_label.setGeometry(QtCore.QRect(60, 50, 211, 31))
+        self.chat_label.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.chat_label.setObjectName("chat_label")
+        self.send_button = QtWidgets.QPushButton(self.centralWidget)
+        self.send_button.setGeometry(QtCore.QRect(660, 630, 271, 41))
+        self.send_button.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.send_button.setObjectName("send_button")
+        self.sign_out_button = QtWidgets.QPushButton(self.centralWidget)
+        self.sign_out_button.setGeometry(QtCore.QRect(800, 140, 131, 41))
+        self.sign_out_button.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.sign_out_button.setObjectName("sign_out_button")
+        self.group_window = QtWidgets.QTextBrowser(self.centralWidget)
+        self.group_window.setGeometry(QtCore.QRect(660, 230, 271, 41))
+        self.group_window.setStyleSheet("font: 75 24pt \"Consolas\";")
+        self.group_window.setObjectName("group_window")
+        self.app_label = QtWidgets.QLabel(self.centralWidget)
+        self.app_label.setGeometry(QtCore.QRect(360, 10, 251, 41))
+        self.app_label.setStyleSheet("font: 75 48pt \"Consolas\";")
+        self.app_label.setObjectName("app_label")
+        MainWindow.setCentralWidget(self.centralWidget)
+        self.statusBar = QtWidgets.QStatusBar(MainWindow)
+        self.statusBar.setObjectName("statusBar")
+        MainWindow.setStatusBar(self.statusBar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.sign_in_button.setText(_translate("MainWindow", "Sign In"))
+        self.join_button.setText(_translate("MainWindow", "Join"))
+        self.leave_button.setText(_translate("MainWindow", "Leave"))
+        self.user_label.setText(_translate("MainWindow", "User"))
+        self.group_label.setText(_translate("MainWindow", "Group"))
+        self.chat_label.setText(_translate("MainWindow", "Chat Content"))
+        self.send_button.setText(_translate("MainWindow", "Send"))
+        self.sign_out_button.setText(_translate("MainWindow", "Sign Out"))
+        self.app_label.setText(_translate("MainWindow", "Chat Room"))
+
